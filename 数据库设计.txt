@@ -1,0 +1,19 @@
+数据库名字parking
+
+表：parking_bank停车库，初始化存储停车库的信息，有区域和每个区域的停车场信息。
+字段:
+parking_area 停车区域
+parking_num 停车场的位数
+
+表：parking_curren_bank当前停车库中，剩余车位的信息。
+字段：
+parking_curren_area 停车区域
+parking_curren_num 停车场的位数
+
+表：parking_message停车信息，记录当前车库的停车信息。
+字段：
+parking_id  停车id
+parking_area 停车区域
+car_message 车的信息
+parking_time 停车的时间
+leave_time 离开停车场的时间
